@@ -1,0 +1,230 @@
+html {
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+}
+
+#HourTitle > h2 {
+    text-align: left;
+    position: relative;
+    top: 250px;
+}
+
+#CurrentlyTitle > h2 {
+    text-align: left;
+    position: relative;
+}
+
+#DailyTitle > h2 {
+    text-align: left;
+    position: relative;
+    top: 550px;
+}
+
+#Boxes {
+    position: relative;
+    top: 250px;
+}
+
+#Current {
+    position: relative;
+}
+
+#Daily {
+    position: relative;
+    top: 550px;
+}
+
+#weatherResults {
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#weatherResults > h2, h3, h4 {
+    text-align: center;
+}
+
+#HourBoxOne {
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    float: left;
+}
+
+#HourBoxTwo {
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 240px;
+    float: left;
+}
+
+#HourBoxThree {
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 480px;
+    float: left;
+}
+
+#HourBoxFour {
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 720px;
+    float: left;
+}
+
+#HourBoxFive {
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 960px;
+    float: left;
+}
+
+#DailyBoxOne {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    float: left;
+}
+
+#DailyBoxTwo {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 240px;
+    float: left;
+}
+
+#DailyBoxThree {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 480px;
+    float: left;
+}
+
+#DailyBoxFour {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 720px;
+    float: left;
+}
+#DailyBoxFive {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 960px;
+    float: left;
+}
+#DailyBoxSix {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 1200px;
+    float: left;
+}
+#DailyBoxSeven {
+    background-color: steelblue;
+    border-radius: 25px;
+    padding: 15px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 1440px;
+    float: left;
+}
+
+#HourBoxOne > h1, h2, h3, h4 {
+    text-align: center;
+}
+
+#HourBoxTwo > h1, h2, h3, h4 {
+    text-align: center;
+}
+
+#HourBoxThree > h1, h2, h3, h4 {
+    text-align: center;
+}
+
+#HourBoxFour > h1, h2, h3, h4 {
+    text-align: center;
+}
+
+#HourBoxFive > h1, h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxOne > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxTwo > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxThree > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxFour > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxFive > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxSix > h2, h3, h4 {
+    text-align: center;
+}
+
+#DailyBoxSeven > h2, h3, h4 {
+    text-align: center;
+}

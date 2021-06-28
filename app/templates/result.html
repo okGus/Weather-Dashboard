@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Result</title>
+
+</head>
+
+<body>
+    <div style="height: 1500px;">
+        <div id="CurrentlyTitle">
+            <h2>Currently</h2>
+        </div>
+
+        <div id="Current">
+            <div id="weatherResults">
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ temp }}° C</h2>
+                <h3>{{ weather }}</h3>
+                <h4>Feels like: {{ feels_like }}° C</h4>
+            </div>
+        </div>
+
+        <div id="HourTitle">
+            <h2>Hourly</h2>
+        </div>
+
+        <div id="Boxes">
+            <div id="HourBoxOne">
+                <h2>{{ hourly[0] }}</h2>
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ h_temp[0] }}° C</h2>
+                <h3>{{ h_weather[0] }}</h3>
+                <h4>Feels like: {{ h_feels_like[0] }}° C</h4>
+            </div>
+
+            <div id="HourBoxTwo">
+                <h2>{{ hourly[1] }}</h2>
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ h_temp[1] }}° C</h2>
+                <h3>{{ h_weather[1] }}</h3>
+                <h4>Feels like: {{ h_feels_like[1] }}° C</h4>
+            </div>
+
+            <div id="HourBoxThree">
+                <h2>{{ hourly[2] }}</h2>
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ h_temp[2] }}° C</h2>
+                <h3>{{ h_weather[2] }}</h3>
+                <h4>Feels like: {{ h_feels_like[2] }}° C</h4>
+            </div>
+
+            <div id="HourBoxFour">
+                <h2>{{ hourly[3] }}</h2>
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ h_temp[3] }}° C</h2>
+                <h3>{{ h_weather[3] }}</h3>
+                <h4>Feels like: {{ h_feels_like[3] }}° C</h4>
+            </div>
+
+            <div id="HourBoxFive">
+                <h2>{{ hourly[4] }}</h2>
+                <h3>Weather in {{ location }}</h3>
+                <h2>{{ h_temp[4] }}° C</h2>
+                <h3>{{ h_weather[4] }}</h3>
+                <h4>Feels like: {{ h_feels_like[4] }}° C</h4>
+            </div>
+        </div>
+
+        <div id="DailyTitle">
+            <h2>Daily</h2>
+        </div>
+
+        <div id="Daily">
+            <div id="DailyBoxOne">
+                <h2>{{ day[0] }}</h2>
+                <h2>{{ d_temp[0] }}° C</h2>
+                <h3>{{ d_weather[0] }}</h3>
+                <h4>Day: {{ d_feels_like_day[0] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[0] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxTwo">
+                <h2>{{ day[1] }}</h2>
+                <h2>{{ d_temp[1] }}° C</h2>
+                <h3>{{ d_weather[1] }}</h3>
+                <h4>Day: {{ d_feels_like_day[1] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[1] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxThree">
+                <h2>{{ day[2] }}</h2>
+                <h2>{{ d_temp[2] }}° C</h2>
+                <h3>{{ d_weather[2] }}</h3>
+                <h4>Day: {{ d_feels_like_day[2] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[2] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxFour">
+                <h2>{{ day[3] }}</h2>
+                <h2>{{ d_temp[3] }}° C</h2>
+                <h3>{{ d_weather[3] }}</h3>
+                <h4>Day: {{ d_feels_like_day[3] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[3] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxFive">
+                <h2>{{ day[4] }}</h2>
+                <h2>{{ d_temp[4] }}° C</h2>
+                <h3>{{ d_weather[4] }}</h3>
+                <h4>Day: {{ d_feels_like_day[4] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[4] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxSix">
+                <h2>{{ day[5] }}</h2>
+                <h2>{{ d_temp[5] }}° C</h2>
+                <h3>{{ d_weather[5] }}</h3>
+                <h4>Day: {{ d_feels_like_day[5] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[5] }}° C</h4>
+            </div>
+
+            <div id="DailyBoxSeven">
+                <h2>{{ day[6] }}</h2>
+                <h2>{{ d_temp[6] }}° C</h2>
+                <h3>{{ d_weather[6] }}</h3>
+                <h4>Day: {{ d_feels_like_day[6] }}° C</h4>
+                <h4>Night: {{ d_feels_like_night[6] }}° C</h4>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
